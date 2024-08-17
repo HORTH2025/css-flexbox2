@@ -34,10 +34,10 @@ aside{
     margin: 0 20px 0px 20px ;
     padding: 10px;   
 }
-.article{
+.container{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     text-align: center;
     flex-direction: column;
     background:#FC7978;
@@ -56,7 +56,7 @@ aside{
     height: 150px;
     margin: 10px; */
     /* justify-content: space-between; */
-    margin: 10px;
+    
 
 }
 .image{
@@ -66,7 +66,7 @@ aside{
     text-align: center;
     width: 125px;
     height: 125px;
-    margin: 10px;
+    margin: 10px 10px 0 10px ;
     background:#D6D5D5;
     padding: 10px;
 
@@ -82,4 +82,9 @@ footer{
     align-items: center;
     text-align: center;
     margin: 20px;
+}
+.article{
+    margin-top: 167px;
+    padding: 20px;
+    font-size: 24px;
 }
