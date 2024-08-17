@@ -4,11 +4,12 @@ body{
     color: white;
 }
 .css-flexbox{
-    background: pink;
-    margin-top: 10px;
+    background:#FFAFB0;
+    margin: 20px;
+    padding: 10px;
 }
 header{
-    background: teal;
+    background:#96D1C7;
     width: 50%;
     padding: 10px;
     height: 30px;
@@ -23,14 +24,15 @@ main{
     /* flex-direction: column; */
 }
 aside{
-    background-color: blue;
+    background:#5EB7B7;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 200px;
     height: 400px;
-    margin: 0 20px 0px 20px ;   
+    margin: 0 20px 0px 20px ;
+    padding: 10px;   
 }
 .article{
     display: flex;
@@ -38,9 +40,10 @@ aside{
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-color: palevioletred;
-    width: 567px;
+    background:#FC7978;
+    width: 497px;
     height: 400px;
+    padding: 10px;
 }
 .image_article{
     display: flex;
@@ -52,7 +55,7 @@ aside{
     width: 150px;
     height: 150px;
     margin: 10px; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 10px;
 
 }
@@ -61,15 +64,16 @@ aside{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 160px;
-    height: 160px;
+    width: 125px;
+    height: 125px;
     margin: 10px;
-    background-color: brown;
+    background:#D6D5D5;
+    padding: 10px;
 
     
 }
 footer{
-    background: teal;
+    background:#96D1C7;
     width: 50%;
     padding: 10px;
     height: 30px;
