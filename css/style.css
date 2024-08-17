@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.css-flexbox{
+    background: pink;
+    margin-top: 10px;
+}
+header{
+    background: teal;
+    width: 50%;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+main{
+    display: flex;
+    /* flex-direction: column; */
+}
+aside{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    margin: 0 20px 0px 20px ;   
+}
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: palevioletred;
+    width: 567px;
+    height: 400px;
+}
+.image_article{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* background-color: papayawhip;
+    width: 150px;
+    height: 150px;
+    margin: 10px; */
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    background-color: brown;
+
+    
+}
+footer{
+    background: teal;
+    width: 50%;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
